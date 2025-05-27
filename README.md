@@ -1,6 +1,11 @@
 # 含氟分子生成器项目
 
-这是一个用于生成大规模含氟分子库的高性能分子生成器项目，支持量子化学计算和高级分子分析。
+[![Python Tests](https://github.com/yiozeeyoung/fluorinated-molecule-generator/actions/workflows/python-test.yml/badge.svg)](https://github.com/yiozeeyoung/fluorinated-molecule-generator/actions/workflows/python-test.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Python](https://img.shields.io/badge/python-3.9%2B-blue)
+[![RDKit](https://img.shields.io/badge/RDKit-2024.03.5-orange)](https://www.rdkit.org/)
+
+这是一个用于生成大规模含氟分子库的高性能分子生成器项目，支持量子化学计算和高级分子分析。通过多进程并行处理，能够高效生成、分析和可视化数万级分子。
 
 ## 项目特性
 

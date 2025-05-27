@@ -113,7 +113,7 @@ visualizer.run_visualization(n_molecules=20)
 
 ## 开发团队
 
-含氟分子生成器开发组
+ayb与claude
 
 ## 版本历史
 

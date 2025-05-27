@@ -1,0 +1,62 @@
+{
+  "config": {
+    "molecules": 10000,
+    "workers": 8,
+    "min_stability": 35.0,
+    "max_energy": 60.0,
+    "output_dir": "medium_20250527_174508"
+  },
+  "generation_report": {
+    "total_requested": 10000,
+    "total_generated": 10000,
+    "successful_molecules": 9978,
+    "database_count": 2377,
+    "generation_time": 28.210527658462524,
+    "molecules_per_second": 354.4775950690247,
+    "success_rate": 0.9978,
+    "criteria": {
+      "min_stability": 35.0,
+      "max_energy": 60.0
+    }
+  },
+  "analysis": {
+    "total_molecules": 2377,
+    "sample_size": 1000,
+    "energy_stats": {
+      "mean": 15.642764906550518,
+      "std": 7.461694476931328,
+      "min": 2.1222417328188348,
+      "max": 52.88787491362337,
+      "median": 14.702518546371298
+    },
+    "stability_stats": {
+      "mean": 95.93,
+      "std": 7.140454193262925,
+      "min": 75.0,
+      "max": 100.0
+    },
+    "molecular_weight_stats": {
+      "mean": 178.059936,
+      "std": 35.10360486012909,
+      "min": 76.11399999999999,
+      "max": 286.20599999999996
+    },
+    "fluorination_distribution": {
+      "4": 309,
+      "3": 263,
+      "2": 176,
+      "5": 126,
+      "6": 64,
+      "1": 44,
+      "7": 10,
+      "8": 8
+    },
+    "convergence_rate": 1.0,
+    "avg_generation_time": 0.012383246898651123
+  },
+  "files": {
+    "database": "fluorinated_molecules.db",
+    "csv_export": "medium_20250527_174508\\generated_molecules.csv"
+  },
+  "completion_time": "2025-05-27T17:45:46.772330"
+}

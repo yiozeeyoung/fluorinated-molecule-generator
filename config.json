@@ -1,0 +1,61 @@
+{
+  "description": "高性能分子生成器配置文件",
+  "generation_settings": {
+    "default_molecules": 10000,
+    "batch_sizes": [1000, 5000, 10000, 25000, 50000],
+    "max_workers": "auto",
+    "batch_size": 1000
+  },
+  "quality_criteria": {
+    "min_stability": 40.0,
+    "max_energy": 50.0,
+    "min_molecular_weight": 50.0,
+    "max_molecular_weight": 800.0,
+    "max_fluorine_ratio": 0.8
+  },
+  "performance_settings": {
+    "memory_limit_gb": 8,
+    "enable_database": true,
+    "enable_progress_monitoring": true,
+    "save_intermediate_results": true
+  },
+  "output_settings": {
+    "output_dir": "high_performance_results",
+    "export_formats": ["csv", "sdf", "json"],
+    "compression": true,
+    "max_export_size": 50000
+  },
+  "analysis_settings": {
+    "auto_analysis": true,
+    "generate_plots": true,
+    "sample_size_for_analysis": 5000,
+    "create_reports": true
+  },
+  "fluorination_strategies": {
+    "conservative": {
+      "min_ratio": 0.1,
+      "max_ratio": 0.3,
+      "weight": 0.4,
+      "description": "保守氟化策略"
+    },
+    "moderate": {
+      "min_ratio": 0.3,
+      "max_ratio": 0.5,
+      "weight": 0.35,
+      "description": "中等氟化策略"
+    },
+    "aggressive": {
+      "min_ratio": 0.5,
+      "max_ratio": 0.8,
+      "weight": 0.25,
+      "description": "激进氟化策略"
+    }
+  },
+  "template_weights": {
+    "linear_alkanes": 0.25,
+    "branched_alkanes": 0.25,
+    "cyclic_compounds": 0.2,
+    "aromatics": 0.15,
+    "mixed_structures": 0.15
+  }
+}

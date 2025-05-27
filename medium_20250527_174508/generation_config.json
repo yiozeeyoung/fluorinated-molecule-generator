@@ -1,0 +1,21 @@
+{
+  "config": {
+    "molecules": 10000,
+    "workers": 8,
+    "min_stability": 35.0,
+    "max_energy": 60.0,
+    "output_dir": "medium_20250527_174508"
+  },
+  "system_info": {
+    "cpu_cores": 12,
+    "memory_gb": 55.88946533203125,
+    "recommended_workers": 12,
+    "recommended_batch_size": 2000
+  },
+  "estimates": {
+    "estimated_time_minutes": 0.5208333333333334,
+    "estimated_memory_mb": 900.0,
+    "estimated_speed": 320.0
+  },
+  "timestamp": "2025-05-27T17:45:17.602240"
+}
